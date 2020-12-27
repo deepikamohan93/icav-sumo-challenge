@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 12/23/20 21:43:45 by Eclipse SUMO netconvert Version 1.6.0
+-->
+
+<configuration>
+    <input>
+        <osm-files value="map.osm"/>
+        <type-files value="D:\Sumo\data\typemap\custom.typ.xml"/>
+    </input>
+
+    <output>
+        <output-file value="network0.xml"/>
+        <output.street-names value="true"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="true"/>
+        <junctions.join value="true"/>
+        <junctions.join-dist value="20"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>

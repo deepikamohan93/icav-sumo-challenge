@@ -1,0 +1,24 @@
+<configuration>
+
+    <input>
+        <net-file value="network.xml"/>
+        <route-files value="demand.rou.xml"/>
+    	<gui-settings-file value="gui-settings.xml"/>
+    	<xml-validation value="never"/>
+    </input>
+
+	<random_number>
+		<random value="true"/>
+	</random_number>
+	
+    <output>
+        <write-license value="true"/>
+    </output>
+
+	<time>
+        <begin value="0"/>
+        <end value="-1"/>
+        <step-length value="1"/>
+    </time>
+
+</configuration>
