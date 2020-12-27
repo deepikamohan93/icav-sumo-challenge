@@ -1,6 +1,6 @@
 # icav-sumo-challenge
 
-Project
+Project: 
 Microsimulation modeling using Sumo Platform and Python 3.9.1 for Portway- Cornishway, Woodhouse Park, Manchester 
 
 Built with
@@ -21,7 +21,7 @@ Simulation workflow
 Input files
 1. Network file- the traffic related part of the map (file name: network.xml). The network area covers the Portway- Cornishway surrounding the Woodhouse Park.
 2. Traffic demand file- traffic demand of the network area is defined using this file. (file name: demand.rou.xml). A standard passenger car flow with maximum running speed of 13mps starting from Portway road completing one circle around the Woodhouse Park is defined in this file.
-3. View Settings file- allows to change and customize the simulations' appearance and visualization: (file name: gui-settings.xml)
+3. View Settings file- allows to change and customize the simulations' appearance and visualization (file name: gui-settings.xml)
 
 Output files
-1. output.csv- Step by step estimates of distance travelled by the vehicle and CO2 emissions are recorded in this file
+1. output.csv- Step by step estimates of distance travelled by the vehicle and CO2 emissions are recorded in this file.
